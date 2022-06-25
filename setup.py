@@ -15,8 +15,8 @@ setup(
   description = 'A breast cancer simulator for benchmarking Reinforcement Learning algorithms',   
   author = 'Shafayet Shariar Hossain',                   
   author_email = 'shossain1@usf.edu',      
-  url = 'https://github.com/vadim0x60/heartpole',   
-  download_url = 'https://github.com/vadim0x60/heartpole/archive/v_11.tar.gz',    
+  url = 'https://github.com/shossain7757/gym_breastcancer',   
+  download_url = '',    
   keywords = ['Machine Learning', 'Reinforcement Learning', 'Healthcare'],   
   install_requires=[            
           'numpy',
