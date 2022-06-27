@@ -6,10 +6,11 @@ Created on Sat Jun 25 10:43:18 2022
 @author: shossain
 """
 
-from distutils.core import setup
+from distutils.core import setup, find_packages
 setup(
   name = 'gym_breastcancer',         
-  packages = ['gym_breastcancer'],   
+  packages = find_packages('gym_breastcancer'),
+  package_dir = {'':'gym_breastcancer'}
   version = '0.1',      
   license='MIT',        
   description = 'A breast cancer simulator for benchmarking Reinforcement Learning algorithms',   
