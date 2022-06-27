@@ -16,7 +16,7 @@ setup(
   author = 'Shafayet Shariar Hossain',                   
   author_email = 'shossain1@usf.edu',      
   url = 'https://github.com/shossain7757/gym_breastcancer',   
-  download_url = '',    
+  download_url = 'https://github.com/shossain7757/gym_breastcancer/archive/refs/tags/v.01.tar.gz',    
   keywords = ['Machine Learning', 'Reinforcement Learning', 'Healthcare'],   
   install_requires=[            
           'numpy',
