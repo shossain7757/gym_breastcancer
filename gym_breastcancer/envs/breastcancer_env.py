@@ -50,8 +50,8 @@ class BreastCancerDCIS(gym.Env):
         self.log += f'state: {self.state}\n'
         
         # load matrices
-        transition_matrix = np.load('transition_matrix3.npy')
-        reward_matrix = np.load('reward_matrix2.npy')
+        transition_matrix = np.load('data/transition_matrix3.npy')
+        reward_matrix = np.load('data/reward_matrix2.npy')
         
         # extract transition_state and rewards
         P = transition_matrix[action, self.state, :]
